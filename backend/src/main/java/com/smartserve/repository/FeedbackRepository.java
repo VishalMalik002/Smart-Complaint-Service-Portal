@@ -1,0 +1,1 @@
+package com.smartserve.repository; import com.smartserve.entity.*; import org.springframework.data.jpa.repository.JpaRepository; public interface FeedbackRepository extends JpaRepository<Feedback,Long>{boolean existsByComplaint(Complaint c);}
